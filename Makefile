@@ -9,6 +9,7 @@ test: lint
 		. venv/bin/activate; \
 		export TELEGRAM_BOT_TOKEN="TEST_TOKEN"; \
 		export TELEGRAM_CHAT_ID="TEST_CHAT_ID"; \
+		export TELEGRAM_TOPIC_ID="TEST_TOPIC_ID"; \
 		python -m pytest; \
 	)
 
