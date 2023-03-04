@@ -15,6 +15,11 @@
       "value": "12345",
       "required": true
     },
+    "TELEGRAM_TOPIC_ID": {
+      "description": "Topic id to send messages to",
+      "value": "1",
+      "required": false
+    },
     "GITHUB_WEBHOOK_SECRET": {
       "description": "Secret part of your webhook URL",
       "value": "secret",
