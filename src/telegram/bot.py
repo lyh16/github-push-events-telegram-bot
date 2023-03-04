@@ -17,8 +17,8 @@ class Bot:
 
         return resp
 
-    def send_message(self, chat_id, topic_id, text, parse_mode):
-        params = dict(chat_id=chat_id, topic_id=topic_id, text=text, parse_mode=parse_mode)
+    def send_message(self, chat_id, message_thread_id, text, parse_mode):
+        params = dict(chat_id=chat_id, message_thread_id=message_thread_id, text=text, parse_mode=parse_mode)
 
         resp = requests.get(self.url + "/sendMessage", data=params)
 
